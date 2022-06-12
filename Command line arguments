@@ -13,6 +13,8 @@ var2 = sys.argv[2]
 def x(y):
     return(y)
 
+def helloWorld():
+	print("Hello World")
 
 
 if __name__ == '__main__':
@@ -20,3 +22,4 @@ if __name__ == '__main__':
     print("Variable2 = " + str(x(var2)))
     print("Script name = " + str(x(name)))
     print("The Script and Variables used = " + str(x(arguments)))
+    helloWorld()
